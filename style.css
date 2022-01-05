@@ -1,15 +1,13 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 20px;
+    margin: 10px;
 }
-h1{
+.h1{
     font-size: 50px;
-
-}
-
+    border-left: 5px solid;
 }
 .red{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 .link{
     text-decoration: none;
@@ -22,6 +20,7 @@ color: white;
 }
 section{
     display: flex;
+    margin-bottom: 75px;
     
 }
 .first{
@@ -60,17 +59,18 @@ border-image: linear-gradient(180deg, rgb(122, 195, 255), rgb(3, 78, 92));
 border-image-slice: 1;
 }
 .codding{
-        width: 50%;
+        width: 100%;
         padding-left: 3%;
-        padding-right: 7%;
+        padding-right: 2%;
+
 }
 .codding img{
-    width: 80%;
+    width: 90%;
 }
 .coddingg{
     text-decoration: none;
     background-image: linear-gradient(rgb(202, 206, 0) , rgb(119, 255, 8));
-    background-color: rgb(3, 204, 3) ,rgb(15, 228, 15)
+    background-color: rgb(3, 204, 3) ,rgb(15, 228, 15);
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 10px;
@@ -85,8 +85,20 @@ border-image-slice: 1;
 .global img{
     width: 50%;
 }
-.redf{
-color: rgb(0, 248, 174);
-background-image: linear-gradient(green ,black);
+
+.know{
+    padding-left: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(202, 206, 0) , rgb(119, 255, 8));
+    background-color: rgb(3, 204, 3) ,rgb(15, 228, 15);
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #000;
 }
+
+footer p{
+    text-align: center;
+    background-color: rgb(128, 206, 125);;
+
 }
