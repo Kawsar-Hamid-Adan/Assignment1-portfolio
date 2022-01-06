@@ -16,7 +16,11 @@ body{
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 10px;
-color: white;
+    color: white;
+
+}
+.contact{
+
 }
 section{
     display: flex;
@@ -38,20 +42,23 @@ h2{
 .mission{
     padding-left: 40%;
 }
-.three-part{
-        box-shadow: 5px 7px 40px rgb(0, 0, 0);
-        height: 80%;
+.3part{
+    box-shadow: 5px 7px 40px rgb(0, 0, 0);
+    height: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #mission-box{
-    border-left: 7px solid;
-    border-right: 10px;
-    border-image: linear-gradient(180deg, rgb(16, 238, 27), rgb(8, 124, 53));
-    border-image-slice: 1;
+border-left: 7px solid;
+border-right: 10px;
+border-image: linear-gradient(180deg, rgb(16, 238, 27), rgb(8, 124, 53));
+border-image-slice: 1;
 }
 #vission-box{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(133, 182, 29), rgb(182, 255, 12));
-    border-image-slice: 1;
+border-left: 7px solid;
+border-right: 10px;
+border-image: linear-gradient(180deg, rgb(133, 182, 29), rgb(182, 255, 12));
+border-image-slice: 1;
 }
 #goals-box{
 border-left: 7px solid;
